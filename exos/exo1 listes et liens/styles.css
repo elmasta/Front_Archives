@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(122, 22, 106);
+}
+
+.petit{
+    font-size: 3px;
+}
+
+p{
+    color:rgb(255, 0, 0);
+}
+
+#PHTML{
+    font-size: 20px;
+}
+
+h2{
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(42, 148, 72);
+    background-color: rgb(159, 216, 67);
+}
+
+#W3C{
+    color: rgb(0, 0, 255);
+}
+
+#HTML{
+    color:rgb(0, 255, 0);
+}
+
+#CSS{
+    color: rgb(200, 50, 100);
+}

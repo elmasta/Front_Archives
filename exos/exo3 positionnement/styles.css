@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: red;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+span{
+    background-color: pink;
+}
+
+a{
+    background-color: orange;
+}
+
+img{
+    height: auto;
+    width: 100px;
+}
+
+p{
+    background-color: darkkhaki;
+    margin: 5px 0;
+    padding: 3px 0 3px 10px;
+}
+
+#block1{
+    background-color: bisque;
+    margin: 5px 75% 0 10px;
+    padding: 5px;
+}
+
+#list{
+    background-color: khaki;
+    margin-top: 5px;
+}
+
+#ltitle{
+    margin-left: 40px;
+}
+
+ul{
+    margin-left: 40px;
+}
+
+footer{
+    background-color: darkkhaki;
+    margin: 5px 10px 0 10px;
+    padding: 5px 0 5px 10px;
+}

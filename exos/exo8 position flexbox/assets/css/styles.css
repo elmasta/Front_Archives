@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: ; */
+}
+
+div{
+    width: 100px;
+    height: 100px;
+}
+
+#rouge{
+    background-color: red;
+}
+
+#jaune{
+    background-color: yellow;
+}
+
+#vert{
+    background-color: green;
+}

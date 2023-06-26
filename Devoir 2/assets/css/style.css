@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "amaticsc", sans-serif;
+    color: white;
+    list-style: none;
+}
+
+@font-face {
+    font-family: "amaticsc";
+    src: url("../font/amaticsc.woff2") format("woff2");
+}
+
+header{
+    background-image: url("../img/pizza.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 800px;
+    filter: saturate(50%);
+}
+
+#navHead{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 100%;
+}
+
+#ulHead{
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.liHead{
+    font-size: 1.8rem;
+}
+
+h1{
+    width: 40%;
+    text-align: center;
+    font-size: 8rem;
+    font-weight: lighter;
+}
+
+#title{
+    height: 97%;
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+    justify-content: center;
+}
+
+.pHead{
+    background-color: black;
+    size: inherit;
+}
+
+#pHead1{
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#schedule{
+    display: flex;
+    size: inherit;
+}
+
+#pHead2{
+    position: relative;
+    left: 10px;
+    top: -10px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#firstSec{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#firstSecGenDiv{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 4rem;
+    padding: 5rem 0 5rem 0;
+}
+
+#navFirstSec{
+    width: 100%;
+    border: 0.1rem rgb(36, 36, 36) solid;
+}
+
+#ulFirstSec{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.liFirstSec{
+    width: 100%;
+    padding: 20px 0 20px 0;
+	text-align: center;
+}
+
+.liFirstSec:hover{
+    background-color: rgb(243, 67, 52);
+    border: 0.1rem black solid;
+}
+
+.firstSecTextSize{
+    font-size: 2rem;
+}
+
+#menu{
+    background-color: white;
+    width: 100%;
+    padding: 20px 0 40px 0;
+}
+
+.menuItemsSpacing{
+    margin: 20px 1% 20px 1%;
+}
+
+.menuItems{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.itemName{
+    color: black;
+    font-weight: bold;
+}
+
+.prices{
+    background-color: rgb(114, 114, 114);
+    border-radius: 0.2rem;
+    padding: 5px;
+}
+
+.itemDescription{
+    color: grey;
+}
+
+.separator{
+    height: 1px;
+    background-color: rgb(247, 247, 247);
+    margin: 0 1% 0 1%;
+}
+
+#hot{
+    border-radius: 0.2rem;
+    background-color: red;
+    font-weight: normal;
+    padding: 5px;
+}
+
+#new{
+    border-radius: 0.2rem;
+    color: black;
+    background-color: darkgrey;
+    font-weight: normal;
+    padding: 5px;
+    margin-left: 4px;
+}
+
+#secondSec{
+    background-color: rgb(140, 95, 90);
+    display: flex;
+    justify-content: center;
+}
+
+#secondSecGenDiv{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondSecFontSize{
+    font-size: 20px;
+}
+
+#secondSecBlockDiv{
+    width: 100%;
+}
+
+#chefBlock{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#theChefFirstP{
+    width: 80%;
+}
+
+#theChef{
+    font-weight: bold;
+}
+
+#chefPicture{
+    width: 10%;
+    border-radius: 50%;
+}
+
+#theChefSecondP{
+    margin-top: -20px;
+}
+
+#restaurantPicture{
+    width: 100%;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#block{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 80px 0;
+}
+
+.secondSecBlocks{
+    width: 50%;
+    margin: 15px 0;
+}
+
+#streets{
+    width: 100%;
+    filter: saturate(30%);
+}
+
+#thirdSec{
+    background-color: rgb(107, 122, 129);
+}
+
+#fourthSec{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(107, 122, 129);
+}
+
+.fourthSecDivtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#fourthSecP{
+    margin: 20px 0 20px 0;
+    font-size: 1.5rem;
+}
+
+#fyi{
+    background-color: black;
+    padding: 3px 7px;
+}
+
+#formFontSize{
+    font-size: 2rem;
+}
+
+#reserve{
+    font-weight: bold;
+}
+
+.formInput{
+    font-size: 1.5rem;
+    color: black;
+    border: none;
+    padding: 15px 0 10px 5px;
+}
+
+input{
+    width: 100%;
+    margin-top: 20px;
+}
+
+button{
+    width: 100.50%;
+    background: lightgrey;
+	color: rgb(78, 78, 78);
+	border: none;
+    padding: 16px 0;
+    text-decoration: none;
+    margin: 20px 0 60px 0;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0 50px 0;
+}

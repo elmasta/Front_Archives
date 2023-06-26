@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: center;
+}
+
+.LightBlue{
+    background-color: aquamarine;
+    color: rgb(14, 14, 150);
+}
+
+span{
+    background-color: lightgreen;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+body{
+    background-color: rgb(245, 166, 199);
+}
+

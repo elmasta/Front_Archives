@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair", sans-serif;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("../font/PlayfairDisplay-Regular.ttf") format("truetype")
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+lo {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 1rem;
+}
+
+li:hover {
+    color: red;
+    background-color: aquamarine;
+}
+
+#image1 {
+    display: flex;
+    background-image: url("../img/hamburger.jpg");
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    align-items: flex-end;
+}
+
+h1 {
+    font-size: medium;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    padding: 0 0 10px 10px;
+}
+
+#contant {
+    width: 80%;
+    margin: auto;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    /* width: 96%; */
+    width: 50%;
+    min-height: 500px;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    /* margin: 10px; */
+}
+
+.blockText{
+    padding-top: .5rem;
+}
+
+p{
+    line-height: 1.5rem;
+}
+
+span{
+    background-color: rgb(235, 235, 235);
+    padding: .1rem;
+}
+
+.imgBlock{
+    width: 100%;
+}
+
+@media screen and (max-width: 576px){
+    #contant {
+        width: 100%;
+        margin: 0;
+    }
+
+    .block {
+        width: 100%;
+        padding: 0;
+    }
+
+    #image1{
+        display: none;
+    }
+}

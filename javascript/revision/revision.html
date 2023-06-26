@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="ficheUtilisateur"></div>
+    <div id="fumeurNonAutorise"></div>
+    <div id="forfait"></div>
+    <script>
+        var prenom = "Julien";
+        var age = 70;
+        var taille = 1.12;
+        var fumeur = true;
+        var email = "juju52@gmail.com";
+        var utilisateurJulien = ["bob", 45, 1.12, true, "juju52@gmail.com"];
+        var utilisateurIvanoe = {
+            prenom: "Ivanoe",
+            age: 19,
+            taille: 1.10,
+            fumeur: false,
+            email: "vava69@gmail.com"
+        };
+        var ficheUtilisateur = document.getElementById("ficheUtilisateur");
+
+        ficheUtilisateur.innerHTML = prenom;
+        ficheUtilisateur.innerHTML = utilisateurJulien[4];
+        ficheUtilisateur.innerHTML = utilisateurIvanoe.prenom;
+
+        var fumeurNonAutorise = document.getElementById("fumeurNonAutorise");
+
+        if(fumeur === true){
+            fumeurNonAutorise.innerHTML = "Vous n'êtes pas autorisé à accéder au site";
+        } else {
+            fumeurNonAutorise.innerHTML = "Vous êtes autorisé à accéder au site";
+        }
+
+        var forfait = document.getElementById("forfait");
+
+        if(age <= 35 && age > 0){
+            forfait.innerHTML = "votre forfait sera de 30€";
+        } else if(age <= 65 && age >= 34){
+            forfait.innerHTML = "votre forfait sera de 45€";
+        } else{
+            forfait.innerHTML = "votre forfait sera de 100€";
+        }
+        function ageDuCapitaine(){
+            console.log(age + 2);
+        }
+
+        ageDuCapitaine();
+
+        function ageVariableDuCapitaine(ageVariable){
+            return ageVariable + 10;
+        }
+
+        console.log(ageVariableDuCapitaine(age));
+        console.log(ageVariableDuCapitaine(utilisateurJulien[1]));
+        console.log(ageVariableDuCapitaine(utilisateurIvanoe.age));
+
+        function ageDuCapitaineMultiParametres(ageFunction, ageCapitaine){
+            return ageFunction + ageCapitaine;
+        };
+
+        console.log(ageDuCapitaineMultiParametres(age, 5));
+        
+    </script>
+</body>
+</html>

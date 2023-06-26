@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var color1 = "bleu";
+        var color2 = "jaune";
+        var color3 = "vert";
+
+        if(color1 === "bleu" && color2 === "jaune"){
+            console.log("hé bah t'es " + color3);
+        } else {
+            console.log("bah t'es pas " + color3)
+        }
+
+        if(color1 === "rouge"){
+            console.log("utilisation du theme de couleur rouge");
+        } else if(color1 === "jaune"){
+            console.log("utilisation du theme jaune");
+        } else {
+            console.log("Bah y a rien!");
+        }
+        var touche = "z";
+        switch (touche) {
+            case "z":
+                console.log("déplacement vers le haut")
+                break;
+            case "q":
+                console.log("déplacement vers la gauche")
+                break;
+            case "s":
+                console.log("déplacement vers le bas")
+                break;
+            case "d":
+                console.log("déplacement vers la droite")
+                break;
+            default:
+                console.log("toutes les touche zqsd")
+                break;
+        }
+    </script>
+</body>
+</html>

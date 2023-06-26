@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    height: 6000px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+#message{
+    position: absolute;
+    width: 100%;
+    transition: all 3s;
+}
+
+.transmessageLeave{
+    left: -110px;
+    top: 4100px;
+}
+
+.transmessageEnter{
+    left: 400px;
+    top: 4600px;
+}
+
+.transimage{
+    background-image: url("../img/pizza.jpg");
+    background-size: cover;
+}

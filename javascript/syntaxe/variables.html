@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #blockA{
+            width: 100px;
+            height: 100px;
+            background-color: fuchsia;
+        }
+    </style>
+</head>
+<body>
+    <div id="blockA"></div>
+    <script>
+        var divBlocA = document.getElementById("blockA");
+        var monTexte = "bonjour";
+        divBlocA.style.backgroundColor = "red";
+        divBlocA.style.width = "150px";
+        divBlocA.innerHTML = "<h1>Hello world</h1>";
+        divBlocA.innerHTML = monTexte;
+        divBlocA.style.textAlign = "center";
+        divBlocA.addEventListener("click", function(){
+            divBlocA.style.backgroundColor = "yellow";
+        });
+        var num1 = 4;
+        var num2 = 2.1;
+        var text3 = "8";
+        console.log(num1 + num2);
+        var maBoolean1 = true;
+        var maBoolean2 = false;
+        var themes = ["red", "yellow", "green"];
+        console.log(themes[1]);
+        
+    </script>
+</body>
+</html>
